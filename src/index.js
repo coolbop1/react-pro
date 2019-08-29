@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Counting from './components/counters';
+import Top from './components/top';
 import 'bootstrap/dist/css/bootstrap.css';
+import './style.css'
 
-
-ReactDom.render(<Counting />, document.getElementById('root') );
+ReactDom.render(<Top />, document.getElementById('root') );

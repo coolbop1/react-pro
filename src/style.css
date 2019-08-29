@@ -1,0 +1,15 @@
+.hide{
+    position:relative;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    transition: opacity 1s;
+}
+.show{
+    position:relative;
+    opacity: 1;
+    z-index: 1;
+    transition:  opacity 1s;
+
+}
